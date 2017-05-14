@@ -1,0 +1,17 @@
+{
+  "name": "chatbot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Caio Lopes <caiodesalopes@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "bootbot": "^1.0.12",
+    "clarifai": "^2.1.6",
+    "dotenv": "^4.0.0",
+    "node-fetch": "^1.6.3",
+    "nodemon": "^1.11.0"
+  },
+  "scripts": {
+    "start": "nodemon index.js"
+  }
+}
